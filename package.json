@@ -12,9 +12,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "prebuild": "pwd && rm index.html || true && rm -r ./static || true && rm asset-manifest.json || true",
     "build": "react-scripts build",
-    "postbuild": "cp -a ./build/ ./",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
