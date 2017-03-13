@@ -32,6 +32,7 @@ rm -rf *|| exit 0
 
 cd ..
 
+cp deploy_key.enc ./out
 
 # Run our compile script
 doCompile
