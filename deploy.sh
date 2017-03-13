@@ -26,20 +26,24 @@ SHA=`git rev-parse --verify HEAD`
 git clone $REPO out
 cd out
 git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
-git branch
-cd ..
-ls
 
 # Clean out existing contents
-rm -rf out/**/* || exit 0
+rm -rf *|| exit 0
+
+cd ..
+
 
 # Run our compile script
 doCompile
 
+mv -v ./build/* ./out/
+
+cd out
+
+echo "Status"
 git status
 
 # Now let's go have some fun with the cloned repo
-cd out
 git config user.name "Travis CI"
 git config user.email "$COMMIT_AUTHOR_EMAIL"
 
