@@ -16,7 +16,7 @@ class App extends Component {
                     <list>
                         <li>
                             <i className="fa fa-linkedin" aria-hidden="true"></i>
-                            <a href="https://www.linkedin.com/in/silviana-ioana-cimpian/ target="_blank"">LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/silviana-ioana-cimpian/ target="_blank">LinkedIn</a>
                         </li>
                         <li>
                             <i className="fa fa-paper-plane" aria-hidden="true"></i>
