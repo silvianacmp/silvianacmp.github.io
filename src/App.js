@@ -14,8 +14,18 @@ class App extends Component {
                 </div>
                 <div className="links">
                     <list>
-                        <li><i className="fa fa-linkedin" aria-hidden="true"></i><a href="https://www.linkedin.com/in/silviana-ioana-cimpian/">LinkedIn</a></li>
-                        <li><i className="fa fa-paper-plane" aria-hidden="true"></i><a href="mailto:silvianacimpian@gmail.com">Contact</a></li>
+                        <li>
+                            <i className="fa fa-linkedin" aria-hidden="true"></i>
+                            <a href="https://www.linkedin.com/in/silviana-ioana-cimpian/">LinkedIn</a>
+                        </li>
+                        <li>
+                            <i className="fa fa-paper-plane" aria-hidden="true"></i>
+                            <a href="mailto:silvianacimpian@gmail.com">Contact</a>
+                        </li>
+                        <li>
+                            <i className="fa fa-github" aria-hidden="true"></i>
+                            <a href="https://github.com/silvianacmp" target="_blank">Github</a>
+                        </li>
                     </list>
                 </div>
             </div>
