@@ -19,7 +19,7 @@ class App extends Component {
                         <h3>Currently living in Cluj-Napoca</h3>
                         <h4>Data Science enthusiast</h4>
                         <h4>Deep Learning learner</h4>
-                        <h4>Front end fiddler</h4>
+                        <h4>Front End fiddler</h4>
                     </div>
                     <div className="links">
                         <list>
