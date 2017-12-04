@@ -15,8 +15,8 @@ class App extends Component {
                 </div>
                 <div className="body">
                     <div className="about">
-                        <h2>MSc Data Science and Machine Learning student at UCL</h2>
-                        <h3>Currently living in Londin</h3>
+                        <h2>Data Science and Machine Learning student</h2>
+                        <h3>Currently living in London</h3>
                         <h4>Data Science enthusiast</h4>
                         <h4>Deep Learning learner</h4>
                         <h4>Front End fiddler</h4>
